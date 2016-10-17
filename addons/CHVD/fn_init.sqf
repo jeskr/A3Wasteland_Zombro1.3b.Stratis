@@ -40,9 +40,9 @@
 	}
 	else
 	{
-		CHVD_footTerrain = 25;
-		CHVD_carTerrain = 25;
-		CHVD_airTerrain = 25;
+		CHVD_footTerrain = 12.5; //JK 25
+		CHVD_carTerrain = 12.5; //JK 25
+		CHVD_airTerrain = 12.5; //JK 25
 	};
 
 	CHVD_targetView = CHVD_footObj;

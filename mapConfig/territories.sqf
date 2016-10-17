@@ -16,6 +16,7 @@
 	["TERRITORY_AGIA_SOUTH", "South Agia Marina", 250, "TOWN"],
 	["TERRITORY_AGIOS_CEPHAS", "Agios Cephas", 250, "TOWN"],
 	["TERRITORY_AGIOS_IOANNIS", "Agios Ioannis", 250, "TOWN"],
+	["TERRITORY_OL_KEIROS", "Ol Keiros", 250, "TOWN"],
 	["TERRITORY_AIRBASE_NORTH", "North Stratis Airbase", 750, "AIRBASE"],
 	["TERRITORY_AIRBASE_SOUTH", "South Stratis Airbase", 750, "AIRBASE"],
 	["TERRITORY_AIRSTATION_MIKE", "Air Station Mike", 500, "MILITARY"],
@@ -28,8 +29,10 @@
 	["TERRITORY_KAMINO_SETTLEMENT", "Kamino Settlement", 250, "TOWN"],
 	["TERRITORY_KILL_FARM", "Kill Farm", 250, "TOWN"],
 	["TERRITORY_LIMERI_BAY", "Limeri Bay", 250, "TOWN"],
-	["TERRITORY_LZ_BALDY", "LZ Baldy", 250, "MILITARY"],
+	["TERRITORY_LZ_BALDY", "LZ Baldy", 250, "TOWN"],
 	["TERRITORY_LZ_CONNOR", "LZ Connor", 250, "MILITARY"],
 	["TERRITORY_PYTHOS", "Pythos Island", 250, "ISLAND"],
-	["TERRITORY_RADIO_TOWERS", "Radio Towers", 250, "MILITARY"]
+	["TERRITORY_RADIO_TOWERS", "Radio Towers", 250, "MILITARY"],
+	["TERRITORY_SHITTY_TOWN", "Shitty Town", 85, "TOWN"],
+	["TERRITORY_RADIO_TOWER_CENTRAL", "Radio Tower Central", 85, "MILITARY"]
 ]

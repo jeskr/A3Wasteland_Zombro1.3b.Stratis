@@ -31,6 +31,42 @@ if (isServer) then
 
 		diag_log format ["HandleDisconnect - %1 - alive: %2 - local: %3 - isPlayer: %4 - group: %5", [_name, _uid], alive _unit, local _unit, isPlayer _unit, group _unit];
 
+		_bountyMarker = format ["%1_bountyMarker", _name];  	
+		if (markerType _bountyMarker == "mil_dot") then
+		{
+			deleteMarker _bountyMarker;
+
+			[
+				parseText format
+				[
+					"<t color='#ff0000' size='1.2' align='center'>[SERVER MESSAGE]</t><br />" +
+					"<t color='#FFFFFF'>------------------------------</t><br/>" +
+					"<t color='#FFFFFF' size='1.0'>player %1 disconnected while being high value target!</t>",
+					_name
+				]
+			] call hintBroadcast;
+
+			diag_log format ["Possible Combat logger: %1 disconnected while being %2!", _name, _bountyMarker];
+		};
+		
+		_drugsMarker = format ["%1_drugsMarker", _name];  	
+		if (markerType _drugsMarker == "mil_dot") then
+		{
+			deleteMarker _drugsMarker;
+
+			[
+				parseText format
+				[
+					"<t color='#ff0000' size='1.2' align='center'>[SERVER MESSAGE]</t><br />" +
+					"<t color='#FFFFFF'>------------------------------</t><br/>" +
+					"<t color='#FFFFFF' size='1.0'>player %1 disconnected while being a drugsrunner!</t>",
+					_name
+				]
+			] call hintBroadcast;
+
+			diag_log format ["Possible Combat logger: %1 disconnected while being %2!", _name, _drugsMarker];
+		};
+		
 		_veh = objectParent _unit;
 
 		// force unlock vehicle if not owned by player OR if somebody else is still inside
@@ -93,7 +129,7 @@ if (isServer) then
 	// Broadcast server rules
 	if (loadFile (externalConfigFolder + "\serverRules.sqf") != "") then
 	{
-		[[call compile preprocessFileLineNumbers (externalConfigFolder + "\serverRules.sqf")], "client\functions\defineServerRules.sqf"] remoteExecCall ["execVM", [-2,0] select hasInterface, true];
+//		[[call compile preprocessFileLineNumbers (externalConfigFolder + "\serverRules.sqf")], "client\functions\defineServerRules.sqf"] remoteExecCall ["execVM", [-2,0] select hasInterface, true];
 	};
 };
 
@@ -166,6 +202,8 @@ if (isServer) then
 		"A3W_vehicleLocking",
 		"A3W_disableBuiltInThermal",
 		"A3W_customDeathMessages",
+		"A3W_maxSpawnBeacons",
+		"APOC_coolDownTimer",
 		"A3W_headshotNoRevive"
 	];
 

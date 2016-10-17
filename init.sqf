@@ -29,8 +29,8 @@ X_Client = false;
 X_JIP = false;
 
 CHVD_allowTerrain = false;
-CHVD_maxView = 3000; // Set maximum view distance (default: 12000)
-CHVD_maxObj = 3000; // Set maximimum object view distance (default: 12000)
+CHVD_maxView = 12000; // Set maximum view distance (default: 12000)
+CHVD_maxObj = 12000; // Set maximimum object view distance (default: 12000)
 
 // versionName = ""; // Set in STR_WL_WelcomeToWasteland in stringtable.xml
 
@@ -100,7 +100,15 @@ if (hasInterface || isServer) then
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
+	[] execVM "addons\laptop\init.sqf";                   // Addon for hack laptop mission
+	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";  // Airdrop
+	[] execVM "addons\HvT\HvT.sqf";                       // High Value Target
+	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
+	if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";}; // GID Positioning System
 };
+
+// Epoch StatusBar
+if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; 
 
 // Remove line drawings from map
 (createTrigger ["EmptyDetector", [0,0,0], false]) setTriggerStatements

@@ -78,6 +78,29 @@ if (_uid call isAdmin) then
 				{
 					execVM "client\systems\adminPanel\toggleGodMode.sqf";
 				};
+				case 9: //Teleport player to me
+				{
+					closeDialog 0;
+					execVM "client\systems\adminPanel\tptome.sqf";
+					//if (!isNil "notifyAdminMenu") then { ["TeleportToMe", "Used"] call notifyAdminMenu };
+				};
+				case 10: //Teleport me to player
+				{
+					closeDialog 0;
+					execVM "client\systems\adminPanel\tpmeto.sqf";
+					//if (!isNil "notifyAdminMenu") then { ["TeleportMeTo", "Used"] call notifyAdminMenu };
+				};
+				case 11: //Unstuck player
+				{
+					closeDialog 0;
+					execVM "client\systems\adminPanel\unstuck.sqf";
+					//if (!isNil "notifyAdminMenu") then { ["UnstuckPlayer", "Used"] call notifyAdminMenu };
+				};
+				case 12: // toggle Invisble mode
+				{
+					execVM "client\systems\adminPanel\toggleInvisMode.sqf";
+					//Is logged from inside target script
+				};
 			};
 		};
 		case (!isNull _displayDebug): //Debug panel

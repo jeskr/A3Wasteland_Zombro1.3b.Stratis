@@ -357,16 +357,15 @@ class CHVD_dialog
 			w = 6.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
 		};
-		class CHVD_rscFootTerrainText: CHVD_rscTextRight
+		/*class CHVD_rscFootTerrainText: CHVD_rscTextRight
 		{
 			idc = 1005;
-
 			text = "TERRAIN:"; //--- ToDo: Localize;
 			x = 7.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 6.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 6.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
-		};
+		};*/
 		class CHVD_rscCarHeaderText: CHVD_rscTextRight
 		{
 			idc = 1008;
@@ -408,16 +407,15 @@ class CHVD_dialog
 			w = 6.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
 		};
-		class CHVD_rscCarTerrainText: CHVD_rscTextRight
+		/*class CHVD_rscCarTerrainText: CHVD_rscTextRight
 		{
 			idc = 1012;
-
 			text = "TERRAIN:"; //--- ToDo: Localize;
 			x = 7.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 13 * GUI_GRID_H + GUI_GRID_Y;
 			w = 6.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
-		};
+		};*/
 		class CHVD_rscFootSyncText: CHVD_rscTextRight
 		{
 			idc = 1004;
@@ -449,16 +447,15 @@ class CHVD_dialog
 			w = 6.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
 		};
-		class CHVD_rscAirTerrainText: CHVD_rscTextRight
+		/*class CHVD_rscAirTerrainText: CHVD_rscTextRight
 		{
 			idc = 1019;
-
 			text = "TERRAIN:"; //--- ToDo: Localize;
 			x = 7.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 19.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 6.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
-		};
+		};*/
 		class CHVD_rscAirSyncText: CHVD_rscTextRight
 		{
 			idc = 1020;
@@ -658,10 +655,9 @@ class CHVD_dialog
 			h = 1.25 * GUI_GRID_H;
 			sizeEx = 0 * 	(0.04) * 	(0.04) * 	(0.04) * 	(0.04) * 	(0.04) * 	(0.04) * GUI_GRID_H;
 		};
-		class CHVD_footTerrainListbox: CHVD_rscXListBox
+		/*class CHVD_footTerrainListbox: CHVD_rscXListBox
 		{
 			idc = 1500;
-
 			x = 14 * GUI_GRID_W + GUI_GRID_X;
 			y = 6.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 12.5 * GUI_GRID_W;
@@ -670,7 +666,6 @@ class CHVD_dialog
 		class CHVD_carTerrainListbox: CHVD_rscXListBox
 		{
 			idc = 1501;
-
 			x = 14 * GUI_GRID_W + GUI_GRID_X;
 			y = 13 * GUI_GRID_H + GUI_GRID_Y;
 			w = 12.5 * GUI_GRID_W;
@@ -679,7 +674,6 @@ class CHVD_dialog
 		class CHVD_airTerrainListbox: CHVD_rscXListBox
 		{
 			idc = 1502;
-
 			x = 14 * GUI_GRID_W + GUI_GRID_X;
 			y = 19.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 12.5 * GUI_GRID_W;
@@ -690,7 +684,6 @@ class CHVD_dialog
 			idc = 1400;
 			onKeyDown = "['CHVD_footTerrain', _this select 0, 1500] call CHVD_fnc_onEBterrainInput";
 			maxChars = 5;
-
 			x = 27 * GUI_GRID_W + GUI_GRID_X;
 			y = 6.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 3.5 * GUI_GRID_W;
@@ -701,7 +694,6 @@ class CHVD_dialog
 			idc = 1401;
 			onKeyDown = "['CHVD_carTerrain', _this select 0, 1501] call CHVD_fnc_onEBterrainInput";
 			maxChars = 5;
-
 			x = 27 * GUI_GRID_W + GUI_GRID_X;
 			y = 13 * GUI_GRID_H + GUI_GRID_Y;
 			w = 3.5 * GUI_GRID_W;
@@ -712,11 +704,10 @@ class CHVD_dialog
 			idc = 1402;
 			onKeyDown = "['CHVD_airTerrain', _this select 0, 1502] call CHVD_fnc_onEBterrainInput";
 			maxChars = 5;
-
 			x = 27 * GUI_GRID_W + GUI_GRID_X;
 			y = 19.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 3.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
-		};
+		};*/
 	};
 };

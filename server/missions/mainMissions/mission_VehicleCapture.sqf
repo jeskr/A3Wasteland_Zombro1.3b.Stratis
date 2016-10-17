@@ -167,7 +167,9 @@ _setupObjects =
 
 	_aiGroup = createGroup CIVILIAN;
 	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup;
-
+	_aiGroup setCombatMode "RED";
+	_aiGroup setBehaviour "COMBAT";	
+	
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _vehicleClass >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _vehicleClass >> "displayName");
 
