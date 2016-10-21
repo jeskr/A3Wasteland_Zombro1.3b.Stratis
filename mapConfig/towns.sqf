@@ -28,5 +28,6 @@
 	["Town_21", 150, "Radio Towers"],
 	["Town_22", 125, "Baldy Barracks"],
 	["Town_23", 85, "Shitty Town"],
-	["Town_24", 60, "Radio Tower Central"]
+	["Town_24", 60, "Radio Tower Central"],
+	["Town_25", 230, "Stratis Airbase Town"]
 ]
