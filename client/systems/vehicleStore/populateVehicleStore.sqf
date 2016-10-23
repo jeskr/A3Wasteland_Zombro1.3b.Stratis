@@ -45,6 +45,9 @@ _playerSideNum = switch (playerSide) do
 
 // Populate the vehicle shop list
 {
+	_isHidden = ("HIDDEN" in (_x select [3,999])); // if the class array contains the string HIDDEN, set _isHidden to true, else false.
+	if !(_isHidden) then // if _isHidden is false then.
+{
 	_x params ["_vehName", "_vehClass"];
 
 	if (!_noBuzzard || {!(_vehClass isKindOf "Plane_Fighter_03_base_F")}) then
@@ -61,4 +64,5 @@ _playerSideNum = switch (playerSide) do
 			[_x, configFile >> "CfgVehicles", _vehlist, _vehlistIndex] call fn_checkStoreItemDLC;
 		};
 	};
+};
 } forEach _vehArray;

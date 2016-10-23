@@ -900,13 +900,13 @@ armoredArray = compileFinal str
 
 	["Hunter", "B_MRAP_01_F", 4000, "vehicle", "SKIPSAVE"],
 	["Hunter HMG", "B_MRAP_01_hmg_F", 15000, "vehicle"],
-//	["Hunter GMG", "B_MRAP_01_gmg_F", 17500, "vehicle"],
+	["Hunter GMG", "B_MRAP_01_gmg_F", 17500, "vehicle","HIDDEN"],
 	["Ifrit", "O_MRAP_02_F", 4000, "vehicle", "SKIPSAVE"],
 	["Ifrit HMG", "O_MRAP_02_hmg_F", 15000, "vehicle"],
-//	["Ifrit GMG", "O_MRAP_02_gmg_F", 17500, "vehicle"],
+	["Ifrit GMG", "O_MRAP_02_gmg_F", 17500, "vehicle","HIDDEN"],
 	["Strider", "I_MRAP_03_F", 4000, "vehicle", "SKIPSAVE"],
 	["Strider HMG", "I_MRAP_03_hmg_F", 15000, "vehicle"],
-//	["Strider GMG", "I_MRAP_03_gmg_F", 17500, "vehicle"],
+	["Strider GMG", "I_MRAP_03_gmg_F", 17500, "vehicle","HIDDEN"],
 	["MSE-3 Marid", "O_APC_Wheeled_02_rcws_F", 30000, "vehicle"],
 	["AMV-7 Marshall", "B_APC_Wheeled_01_cannon_F", 40000, "vehicle"],
 	["AFV-4 Gorgon", "I_APC_Wheeled_03_cannon_F", 45000, "vehicle"]
@@ -919,11 +919,11 @@ tanksArray = compileFinal str
 	["FV-720 Mora", "I_APC_tracked_03_cannon_F", 47000, "vehicle"],
 	["BTR-K Kamysh", "O_APC_Tracked_02_cannon_F", 50000, "vehicle"],
 	["IFV-6a Cheetah AA", "B_APC_Tracked_01_AA_F", 55000, "vehicle"],
-	["ZSU-39 Tigris AA", "O_APC_Tracked_02_AA_F", 60000, "vehicle"]
-//	["M2A1 Slammer", "B_MBT_01_cannon_F", 70000, "vehicle"],
-//	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 70000, "vehicle"], // Commander gun variant
-//	["T-100 Varsuk", "O_MBT_02_cannon_F", 70000, "vehicle"],
-//	["MBT-52 Kuma", "I_MBT_03_cannon_F", 70000, "vehicle"]
+	["ZSU-39 Tigris AA", "O_APC_Tracked_02_AA_F", 60000, "vehicle"],
+	["M2A1 Slammer", "B_MBT_01_cannon_F", 70000, "vehicle","HIDDEN"],
+	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 70000, "vehicle","HIDDEN"], // Commander gun variant
+	["T-100 Varsuk", "O_MBT_02_cannon_F", 70000, "vehicle","HIDDEN"],
+	["MBT-52 Kuma", "I_MBT_03_cannon_F", 70000, "vehicle","HIDDEN"]
 ];
 
 
@@ -951,11 +951,11 @@ helicoptersArray = compileFinal str
 	["AH-9 Pawnee", "B_Heli_Light_01_armed_F", 60000, "vehicle"], // Armed AH-6
 	["PO-30 Orca (Armed, Black)", "O_Heli_Light_02_v2_F", 35000, "vehicle"], // Armed Ka-60 with orca paintjob
 	["PO-30 Orca (Armed, Hex)", "O_Heli_Light_02_F", 60000, "vehicle"], // Armed Ka-60
-	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 40000, "vehicle"] // Armed AW159
-//	["AH-99 Blackfoot", "B_Heli_Attack_01_F", 150000, "vehicle"], // RAH-66 with gunner
-//	["Mi-48 Kajman", "O_Heli_Attack_02_F", 100000, "vehicle"], // Mi-28 with gunner
+	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 40000, "vehicle"], // Armed AW159
+	["AH-99 Blackfoot", "B_Heli_Attack_01_F", 150000, "vehicle","HIDDEN"], // RAH-66 with gunner
+	["Mi-48 Kajman", "O_Heli_Attack_02_F", 100000, "vehicle","HIDDEN"], // Mi-28 with gunner
 
-//	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 70000, "vehicle"]
+	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 70000, "vehicle","HIDDEN"]
 ];
 
 planesArray = compileFinal str
@@ -964,21 +964,21 @@ planesArray = compileFinal str
 
 	["A-143 Buzzard AA", "I_Plane_Fighter_03_AA_F", 80000, "vehicle"],
 	["A-143 Buzzard CAS", "I_Plane_Fighter_03_CAS_F", 85000, "vehicle"],
-//	["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 150000, "vehicle"],
-//	["To-199 Neophron CAS", "O_Plane_CAS_02_F", 150000, "vehicle"],
+	["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 150000, "vehicle","HIDDEN"],
+	["To-199 Neophron CAS", "O_Plane_CAS_02_F", 150000, "vehicle","HIDDEN"],
 
 	["V-44 X Blackfish (Infantry)", "B_T_VTOL_01_infantry_F", 20000, "vehicle"],
-//	["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 150000, "vehicle"],
-//	["Y-32 Xi'an", "O_T_VTOL_02_infantry_F", 150000, "vehicle"],
+	["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 150000, "vehicle","HIDDEN"],
+	["Y-32 Xi'an", "O_T_VTOL_02_infantry_F", 150000, "vehicle","HIDDEN"],
 
-//	["MQ4A Greyhawk Missile UAV", "B_UAV_02_F", 60000, "vehicle"],
+	["MQ4A Greyhawk Missile UAV", "B_UAV_02_F", 60000, "vehicle","HIDDEN"],
 	["MQ4A Greyhawk Bomber UAV", "B_UAV_02_CAS_F", 15000, "vehicle"], // Bomber UAVs are a lot harder to use, hence why they are cheaper than Missile ones
-//	["K40 Ababil-3 Missile UAV", "O_UAV_02_F", 60000, "vehicle"],
+	["K40 Ababil-3 Missile UAV", "O_UAV_02_F", 60000, "vehicle","HIDDEN"],
 	["K40 Ababil-3 Bomber UAV", "O_UAV_02_CAS_F", 15000, "vehicle"],
-//	["K40 Ababil-3 Missile UAV", "I_UAV_02_F", 60000, "vehicle"],
-	["K40 Ababil-3 Bomber UAV", "I_UAV_02_CAS_F", 15000, "vehicle"]
+	["K40 Ababil-3 Missile UAV", "I_UAV_02_F", 60000, "vehicle","HIDDEN"],
+	["K40 Ababil-3 Bomber UAV", "I_UAV_02_CAS_F", 15000, "vehicle"],
 
-//	["KH-3A Fenghuang UAV", "O_T_UAV_04_CAS_F", 60000, "vehicle"]
+	["KH-3A Fenghuang UAV", "O_T_UAV_04_CAS_F", 60000, "vehicle","HIDDEN"]
 ];
 
 boatsArray = compileFinal str
