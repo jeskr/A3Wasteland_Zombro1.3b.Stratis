@@ -5,9 +5,9 @@
 
 if (!isServer) exitWith {};
 
-if (loadFile (externalConfigFolder + "\admins.sqf") != "") then
+if (loadFile (externalConfigFolder + "\_admins.sqf") != "") then
 {
-	call compile preprocessFileLineNumbers (externalConfigFolder + "\admins.sqf");
+	call compile preprocessFileLineNumbers (externalConfigFolder + "\_admins.sqf");
 }
 else
 {
