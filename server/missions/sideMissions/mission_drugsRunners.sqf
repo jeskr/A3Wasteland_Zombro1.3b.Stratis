@@ -156,8 +156,12 @@ _successExec =
 	  [_item, _lastPos] call _drop_item;
 	};
 	
-	_explosivePos = getPosATL (_vehicles select 0);
+/*	_explosivePos = getPosATL (_vehicles select 0);
 	_explosive = createMine ["SatchelCharge_F", _explosivePos, [], 0];
+	_explosive setDamage 1;*/
+	_explosivePos = getPosATL (_vehicles select 0);
+	_explosive = "DemoCharge_Remote_Ammo_Scripted" createVehicle _explosivePos;
+	waitUntil{!(isNull _explosive)};
 	_explosive setDamage 1;
 
 	_successHintMessage = "You have stopped the drugs runners but they blew up their car! The drugs are yours to take!";
