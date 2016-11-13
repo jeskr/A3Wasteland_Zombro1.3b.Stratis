@@ -104,6 +104,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";  // Airdrop
 	[] execVM "addons\HvT\HvT.sqf";                       // High Value Target
 	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
+	[] execVM "addons\vactions\functions.sqf";            // Micovery vehicle actions
 	if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";}; // GID Positioning System
 };
 

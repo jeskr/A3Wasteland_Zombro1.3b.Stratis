@@ -47,6 +47,8 @@ player createDiaryRecord ["changelog",
 [
 "v1.3",
 "
+<br/>[Fixed] Drugrunners vehicle explosion
+<br/>[Added] Vehicle actions
 <br/>[Changed] Server cleanup optimized. Better FPS.
 <br/>[Changed] Spawning in with a Vermin, not just a pistol.
 <br/>[Changed] Removed Food, Water and RepairKits at spawn. Better FPS.

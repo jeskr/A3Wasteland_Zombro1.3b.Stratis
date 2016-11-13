@@ -1,6 +1,3 @@
-
-waitUntil {!isNil "A3W_serverSetupComplete"};
-
 call compile preprocessFileLineNumbers "addons\vactions\config.sqf";
 
 {
