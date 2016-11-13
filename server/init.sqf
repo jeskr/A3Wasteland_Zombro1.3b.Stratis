@@ -476,7 +476,6 @@ if (isNil "A3W_savingMethod") then
 	publicVariable "A3W_savingMethod";
 };
 
-//call compile preprocessFileLineNumbers "server\missions\setupMissionArrays.sqf";
 call compile preprocessFileLineNumbers (externalConfigFolder + "\setupMissionArrays.sqf");
 call compile preprocessFileLineNumbers "server\functions\createTownMarkers.sqf";
 
