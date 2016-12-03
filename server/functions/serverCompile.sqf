@@ -51,6 +51,7 @@ createGroup7= [_path, "createUnits\Group7.sqf"] call mf_compile;
 createGroup8= [_path, "createUnits\Group8.sqf"] call mf_compile;
 createGroup9= [_path, "createUnits\Group9.sqf"] call mf_compile;
 createGroup10= [_path, "createUnits\Group10.sqf"] call mf_compile;
+cleanupMissionObjects = [_path, "cleanupMissionObjects.sqf"] call mf_compile;
 
 //Function Compiles
 _path = "server\functions";
