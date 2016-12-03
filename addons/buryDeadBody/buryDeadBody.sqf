@@ -66,13 +66,13 @@ _duration = (round (random 30)) + 30;
 _animation = "AinvPknlMstpSlayWrflDnon_medic";
 
 _cleanUpObjects = [
-	"Land_Suitcase_F", // Repair Kit
-	"Land_BakedBeans_F", // Canned Food
-	"Land_BottlePlastic_V2_F", // Water Bottle
-	"Land_Sleeping_bag_folded_F", // Spawn Beacon
-	"Land_CanisterFuel_F", // Jerrycan
-	"Land_CanisterOil_F", // Syphon Hose
-	"Land_Ground_sheet_folded_OPFOR_F", // Camo Net
+//	"Land_Suitcase_F", // Repair Kit
+//	"Land_BakedBeans_F", // Canned Food
+//	"Land_BottlePlastic_V2_F", // Water Bottle
+//	"Land_Sleeping_bag_folded_F", // Spawn Beacon
+//	"Land_CanisterFuel_F", // Jerrycan
+//	"Land_CanisterOil_F", // Syphon Hose
+//	"Land_Ground_sheet_folded_OPFOR_F", // Camo Net
 	"GroundWeaponHolder", // static weapon holder, all weapons, weapon attachments, magazines, throwables, backpacks, vests, uniforms, helments, etc
 	"WeaponHolderSimulated" // simulated weapon holder, all weapons, weapon attachments, magazines, throwables, backpacks, vests, uniforms, helments, etc
 ];
