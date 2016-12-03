@@ -231,8 +231,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Stratis v1.3b - TeamSpeak 188.228.38.201";
-		overviewText="A3Wasteland Stratis v1.3b - TeamSpeak 188.228.38.201";
+		briefingName="A3Wasteland Stratis v1.3b - TeamSpeak: ts.arma-dillo.dk";
+		overviewText="A3Wasteland Stratis v1.3b - TeamSpeak: ts.arma-dillo.dk";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
 		startWeather=0;

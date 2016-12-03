@@ -111,6 +111,9 @@ if (hasInterface || isServer) then
 // Epoch StatusBar
 if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; 
 
+// Server restartmessages
+	"RM_DISPLAYTEXT_PUBVAR" addPublicVariableEventHandler {(_this select 1) spawn BIS_fnc_dynamicText;};
+
 // Remove line drawings from map
 (createTrigger ["EmptyDetector", [0,0,0], false]) setTriggerStatements
 [
