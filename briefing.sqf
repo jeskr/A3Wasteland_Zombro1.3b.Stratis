@@ -47,6 +47,12 @@ player createDiaryRecord ["changelog",
 [
 "v1.3",
 "
+<br/>[Added] Hide body replaced with Bury dead body
+<br/>[Added] Cleaning of stores debris optimized heavy
+<br/>[Added] Out of bounds warning function added
+<br/>[Added] Environment disabled (Rabbits, Snakes etc.)
+<br/>[Added] Server restarts annoucements on screen
+<br/>[Added] ----------
 <br/>[Fixed] Drugrunners vehicle explosion
 <br/>[Added] Vehicle actions
 <br/>[Changed] Server cleanup optimized. Better FPS.
