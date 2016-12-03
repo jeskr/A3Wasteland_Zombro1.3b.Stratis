@@ -30,7 +30,8 @@ if ([_uid, 3] call isAdmin) then {
 					"Teleport player to me",
 					"Teleport me to player",
 					"Unstuck player",
-					"Toggle Invisible-mode"
+					"Toggle Invisible-mode",
+					"Spectate"
 	];
 
 	{

@@ -101,6 +101,11 @@ if (_uid call isAdmin) then
 					execVM "client\systems\adminPanel\toggleInvisMode.sqf";
 					//Is logged from inside target script
 				};
+				case 13: // admin spectate (soulkobk)
+				{
+				closeDialog 0;
+				execVM "client\systems\adminPanel\adminSpectate.sqf";
+				};
 			};
 		};
 		case (!isNull _displayDebug): //Debug panel
