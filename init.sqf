@@ -105,6 +105,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\HvT\HvT.sqf";                       // High Value Target
 	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
 	[] execVM "addons\vactions\functions.sqf";            // Micovery vehicle actions
+	[] execVM "addons\outOfBounds\outOfBounds.sqf";		  // OutOfBounds checks
 	if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";}; // GID Positioning System
 };
 
