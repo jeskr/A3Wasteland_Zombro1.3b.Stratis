@@ -104,7 +104,14 @@ _missionObjectsToDelete = [
 	"Land_PowerGenerator_F",
 	"Land_Sleeping_bag_F",
 	"Land_SolarPanel_1_F",
-	"Land_TTowerSmall_1_F"
+	"Land_TTowerSmall_1_F",
+
+	"Land_LampShabby_F",
+	"I_HMG_01_high_F",
+	"Land_Cargo_Patrol_V4_F",
+	"O_CargoNet_01_ammo_F",
+	"Land_Cargo_HQ_V3_F"
+	
 ];
 
 /*	------------------------------------------------------------------------------------------
