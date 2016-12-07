@@ -9,7 +9,7 @@ _player = _this;
 
 _player setSkill 0;
 //{_player disableAI _x} foreach ["move","anim","target","autotarget"]; Vehicles dont drive bug replaced with line under here
-{_player disableAI _x} foreach ["anim","target","autotarget"];
+//{_player disableAI _x} foreach ["anim","target","autotarget"];
 _player setVariable ["BIS_noCoreConversations", true];
 _player setVariable ["A3W_corpseEjected", nil, true];
 _player allowDamage false;
