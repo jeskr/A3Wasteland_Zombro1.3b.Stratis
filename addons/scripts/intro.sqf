@@ -14,7 +14,7 @@ _messages = [
 	["Donations", "Please visit www.arma-dillo.dk and donate. Its not FREE to keep server running."]
 ];
 
-_timeout = 5;
+_timeout = 10;
 {
 	private ["_title", "_content", "_titleText"];
 	uiSleep 2;
