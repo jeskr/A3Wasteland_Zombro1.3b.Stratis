@@ -29,7 +29,7 @@ call mf_compile;
 // Handle Death
 ////////////////////////////////////////////////
 FAR_HandleDamage_EH = "addons\far_revive\FAR_HandleDamage_EH.sqf" call mf_compile;
-FAR_fnc_headshotHitPartEH = "addons\far_revive\FAR_headshotHitPartEH.sqf" call mf_compile;
+// FAR_fnc_headshotHitPartEH = "addons\far_revive\FAR_headshotHitPartEH.sqf" call mf_compile; // Disabled headshot kills because of no-lifer hackfagets JK
 
 ////////////////////////////////////////////////
 // Make Player Unconscious
