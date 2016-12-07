@@ -47,6 +47,7 @@ player createDiaryRecord ["changelog",
 [
 "v1.3",
 "
+<br/>[Added] Old Hide body back again.
 <br/>[Added] Hide body replaced with Bury dead body
 <br/>[Added] Cleaning of stores debris optimized heavy
 <br/>[Added] Out of bounds warning function added
