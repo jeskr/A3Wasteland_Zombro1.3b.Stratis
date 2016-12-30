@@ -10,8 +10,8 @@ _messages = [
 	["Remember To", "Lock all base parts, War-chests and Crates to ensure their saving."],
 	["Earplugs", "Put in your earplugs by using the END key."],
 	["Holster", "Holster And UN-Holster your Weapon by using the H key."],
-	["Server", "Restarts every 3 hours."],
-	["Donations", "Please visit www.arma-dillo.dk and donate. Its not FREE to keep server running."]
+	["Server", "Restarts every 3 hours."]
+//	["Donations", "Please visit www.arma-dillo.dk and donate. Its not FREE to keep server running."]
 ];
 
 _timeout = 10;

@@ -231,8 +231,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Stratis v1.3b - TeamSpeak: ts.arma-dillo.dk";
-		overviewText="A3Wasteland Stratis v1.3b - TeamSpeak: ts.arma-dillo.dk";
+		briefingName="A3Wasteland Stratis v1.3b - TeamSpeak: 37.97.7.174";
+		overviewText="A3Wasteland Stratis v1.3b - TeamSpeak: 37.97.7.174";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
 		startWeather=0;
@@ -2214,7 +2214,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=127;
-					type="I_diver_F";
+					type="I_medic_F";
 				};
 				class Item2
 				{
@@ -2368,7 +2368,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=137;
-					type="I_diver_F";
+					type="I_medic_F";
 				};
 				class Item2
 				{
@@ -2477,7 +2477,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=144;
-					type="I_engineer_F";
+					type="I_medic_F";
 				};
 			};
 			class Attributes
@@ -2522,7 +2522,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=147;
-					type="I_diver_F";
+					type="I_medic_F";
 				};
 				class Item2
 				{
@@ -2676,7 +2676,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=157;
-					type="I_diver_F";
+					type="I_medic_F";
 				};
 				class Item2
 				{

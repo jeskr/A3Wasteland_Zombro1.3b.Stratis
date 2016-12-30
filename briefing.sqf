@@ -47,6 +47,11 @@ player createDiaryRecord ["changelog",
 [
 "v1.3",
 "
+<br/>[Changed] Food/Water last 25% longer
+<br/>[Added] Spawn in with bigger backpack, Grenade and Smoke shell
+<br/>[Changed] More Medic slots for Independant
+<br/>[Changed] Vehicle loot upgraded
+<br/>[Added] ----------
 <br/>[Added] Old Hide body back again.
 <br/>[Added] Hide body replaced with Bury dead body
 <br/>[Added] Cleaning of stores debris optimized heavy
